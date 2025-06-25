@@ -82,7 +82,7 @@ function App() {
         </div>
 
         {/* Scroll Indicator */}
-        {/* <div className="absolute bottom-8 sm:bottom-12 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <div className="absolute bottom-8 sm:bottom-12 left-1/2 transform -translate-x-1/2 animate-bounce mr-2">
           <button 
             onClick={() => scrollToSection('intro')}
             className="flex flex-col items-center text-zinc-400 hover:text-white transition-colors group"
@@ -90,7 +90,7 @@ function App() {
             <span className="text-xs sm:text-sm font-light mb-2 tracking-widest uppercase">Scroll</span>
             <ChevronDown size={20} className="sm:w-6 sm:h-6 group-hover:transform group-hover:translate-y-1 transition-transform" />
           </button>
-        </div> */} 
+        </div>
       </section>
 
       {/* Intro Section */}
