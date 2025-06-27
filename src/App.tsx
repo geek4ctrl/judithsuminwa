@@ -125,7 +125,7 @@ function App() {
         </div>
 
         {/* Scroll Indicator */}
-        <div className="absolute bottom-8 sm:bottom-12 left-1/2 -translate-x-1/2 animate-bounce">
+        {/* <div className="absolute bottom-8 sm:bottom-12 left-1/2 -translate-x-1/2 animate-bounce">
           <button
             onClick={() => scrollToSection("intro")}
             className="flex flex-col items-center text-zinc-400 hover:text-white transition-colors group"
@@ -138,7 +138,7 @@ function App() {
               className="sm:w-6 sm:h-6 group-hover:transform group-hover:translate-y-1 transition-transform"
             />
           </button>
-        </div>
+        </div> */}
       </section>
 
       {/* Intro Section */}
